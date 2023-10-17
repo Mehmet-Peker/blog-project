@@ -86,9 +86,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'blogdb', # database name in RDS is written here
-        'USER': 'peker', # database master username in RDS is written here
+        'USER': 'admin', # database master username in RDS is written here
         'PASSWORD': config('PASSWORD'),
-        'HOST': 'my-database.cd4o4lkqwl66.us-east-1.rds.amazonaws.com',  # database endpoint is written here
+        'HOST': 'database-1.cd4o4lkqwl66.us-east-1.rds.amazonaws.com',  # database endpoint is written here
         'PORT': '3306' # database port is written here
     }
 }
