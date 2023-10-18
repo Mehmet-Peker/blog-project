@@ -88,11 +88,7 @@ DATABASES = {
         'NAME': 'blogdb', # database name in RDS is written here
         'USER': 'admin', # database master username in RDS is written here
         'PASSWORD': config('PASSWORD'),
-<<<<<<< HEAD
-        'HOST': 'database-11.cd4o4lkqwl66.us-east-1.rds.amazonaws.com',  # database endpoint is written here
-=======
         'HOST': 'database-1.cd4o4lkqwl66.us-east-1.rds.amazonaws.com',  # database endpoint is written here
->>>>>>> 0cdcbfefd384eee348fd2f41d58950004b2550da
         'PORT': '3306' # database port is written here
     }
 }
