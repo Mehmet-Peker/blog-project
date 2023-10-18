@@ -88,7 +88,11 @@ DATABASES = {
         'NAME': 'blogdb', # database name in RDS is written here
         'USER': 'admin', # database master username in RDS is written here
         'PASSWORD': config('PASSWORD'),
+<<<<<<< HEAD
         'HOST': 'database-11.cd4o4lkqwl66.us-east-1.rds.amazonaws.com',  # database endpoint is written here
+=======
+        'HOST': 'database-1.cd4o4lkqwl66.us-east-1.rds.amazonaws.com',  # database endpoint is written here
+>>>>>>> 0cdcbfefd384eee348fd2f41d58950004b2550da
         'PORT': '3306' # database port is written here
     }
 }
@@ -145,7 +149,7 @@ LOGIN_URL = "login"
 
 AWS_STORAGE_BUCKET_NAME = 'blog-store-bucket' # please enter your s3 bucket name
 AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
-AWS_S3_REGION_NAME = "us-east-1" # please enter your s3 region 
+AWS_S3_REGION_NAME = "us-east-1" # please enter your s3 region
 AWS_DEFAULT_ACL = 'public-read'
 
 AWS_LOCATION = 'static'
