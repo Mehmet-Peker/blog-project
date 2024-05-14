@@ -6,7 +6,7 @@ Blog Page Application aims to deploy blog application as a web application writt
 
 ## Problem Statement
 
-![Project_004](capstone.jpg)
+![Project_004](blog.jpg)
 
 - This project aims to serve as Blog web application on isolated VPC environment.
 
